@@ -44,11 +44,11 @@ LVM works as a layered storage stack, moving from physical hardware to logical f
 
 ```mermaid
 graph TD
-    A[Files] --> B[Filesystem (ext4 / xfs)]
-    B --> C[Logical Volume (LV)]
-    C --> D[Volume Group (VG)]
-    D --> E[Physical Volume (PV)]
-    E --> F[Physical Disk (/dev/sdb)]
+    A[Files] --> B["Filesystem (ext4 / xfs)"]
+    B --> C["Logical Volume (LV)"]
+    C --> D["Volume Group (VG)"]
+    D --> E["Physical Volume (PV)"]
+    E --> F["Physical Disk (/dev/sdb)"]
 ```
 
 ---
